@@ -1,0 +1,32 @@
+{
+  "name": "frontpage-hn",
+  "version": "1.0.0",
+  "description": "Retrieves the stories on the front page of Hacker News in JSON format",
+  "author": "Alexandru Vladutu (alexandru.vladutu@gmail.com)",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "custom-err": "0.0.2",
+    "errto": "^0.2.1",
+    "simple-get": "^1.4.3"
+  },
+  "devDependencies": {
+    "alessioalex-standard": "*",
+    "husky": "0.10.x",
+    "nock": "^3.5.0"
+  },
+  "scripts": {
+    "lint": "alessioalex-standard",
+    "test": "node test/test.js",
+    "precommit": "npm run lint && npm test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessioalex/frontpage-hn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alessioalex/frontpage-hn/issues"
+  },
+  "homepage": "https://github.com/alessioalex/frontpage-hn#readme"
+}
