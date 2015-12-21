@@ -1,6 +1,6 @@
 # frontpage-hn
 
-Retrieves the stories on the front page of Hacker News in JSON format.
+Retrieves the front page stories from Hacker News in JSON format.
 
 [![Build Status](https://travis-ci.org/alessioalex/frontpage-hn.svg)](https://travis-ci.org/alessioalex/frontpage-hn)
 

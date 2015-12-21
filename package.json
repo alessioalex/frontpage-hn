@@ -1,7 +1,7 @@
 {
   "name": "frontpage-hn",
   "version": "1.0.0",
-  "description": "Retrieves the stories on the front page of Hacker News in JSON format",
+  "description": "Retrieves the front page stories from Hacker News in JSON format",
   "author": "Alexandru Vladutu (alexandru.vladutu@gmail.com)",
   "main": "index.js",
   "dependencies": {
