@@ -18,6 +18,7 @@ getFrontPageHN(function(err, posts) {
 // Example output:
 /*
   [{
+    id: 10768440,
     title: 'Deep Learning: An MIT Press Book in Preparation',
     postLink: 'http://goodfeli.github.io/dlbook/',
     commentsLink: 'https://news.ycombinator.com/item?id=10768440',
