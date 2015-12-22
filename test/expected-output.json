@@ -1,182 +1,205 @@
 [
   {
-    "title": "Rails 5.0.0.beta1: Action Cable, API Mode, Rails Command",
-    "postLink": "http://weblog.rubyonrails.org/2015/12/18/Rails-5-0-beta1/",
-    "commentsLink": "https://news.ycombinator.com/item?id=10770332",
-    "comments": 27
+    "id": 10774865,
+    "title": "SpaceX launch webcast: Orbcomm-2 Mission [video]",
+    "postLink": "http://spacex.com/webcast/",
+    "commentsLink": "https://news.ycombinator.com/item?id=10774865",
+    "comments": 330
   },
   {
-    "title": "Juniper screenOS authentication backdoor - master ssh password posted",
-    "postLink": "https://community.rapid7.com/community/infosec/blog/2015/12/20/cve-2015-7755-juniper-screenos-authentication-backdoor",
-    "commentsLink": "https://news.ycombinator.com/item?id=10768720",
-    "comments": 138
-  },
-  {
-    "title": "Mind-wandering: the rise of a new anti-mindfulness movement",
-    "postLink": "http://thelongandshort.org/society/is-mind-wandering-an-anti-mindfulness-movement",
-    "commentsLink": "https://news.ycombinator.com/item?id=10767517",
-    "comments": 8
-  },
-  {
-    "title": "How long are dams like Hoover Dam engineered to last? (2006)",
-    "postLink": "http://www.straightdope.com/columns/read/2666/how-long-are-dams-like-hoover-dam-engineered-to-last",
-    "commentsLink": "https://news.ycombinator.com/item?id=10766665",
-    "comments": 5
-  },
-  {
-    "title": "The History of the Hedgehog",
-    "postLink": "https://thebrowser.com/articles/the-history-of-the-hedgehog/",
-    "commentsLink": "https://news.ycombinator.com/item?id=10768913",
-    "comments": 1
-  },
-  {
-    "title": "Why Dole owns container ships",
-    "postLink": "https://www.flexport.com/blog/why-dole-owns-container-ships/",
-    "commentsLink": "https://news.ycombinator.com/item?id=10767201",
-    "comments": 8
-  },
-  {
-    "title": "Taking Let's Encrypt for a Spin",
-    "postLink": "https://timkadlec.com/2015/12/taking-lets-encrypt-for-a-spin/",
-    "commentsLink": "https://news.ycombinator.com/item?id=10767341",
-    "comments": 13
-  },
-  {
-    "title": "Anti-Debugging Tricks (1993)",
-    "postLink": "http://textfiles.com/programming/antidbg.txt",
-    "commentsLink": "https://news.ycombinator.com/item?id=10770099",
-    "comments": 4
-  },
-  {
-    "title": "U.S. Probes Theranos Complaints",
-    "postLink": "http://www.wsj.com/articles/u-s-probes-theranos-complaints-1450663103",
-    "commentsLink": "https://news.ycombinator.com/item?id=10769525",
-    "comments": 29
-  },
-  {
-    "title": "Why we chose to move to HTML5 video",
-    "postLink": "https://code.facebook.com/posts/159906447698921/why-we-chose-to-move-to-html5-video/",
-    "commentsLink": "https://news.ycombinator.com/item?id=10760168",
-    "comments": 28
-  },
-  {
-    "title": "Terrafugia's flying car model has been approved for tests in US airspace",
-    "postLink": "http://www.sciencealert.com/terrafugia-s-flying-car-has-just-been-given-approval-to-run-in-air-tests",
-    "commentsLink": "https://news.ycombinator.com/item?id=10768246",
-    "comments": 0
-  },
-  {
-    "title": "Cold Case Suriname",
-    "postLink": "http://roadsandkingdoms.com/2015/cold-case-suriname/",
-    "commentsLink": "https://news.ycombinator.com/item?id=10761911",
-    "comments": 0
-  },
-  {
-    "title": "PLOS ONE issues editor's note over controversial chronic fatigue researcha",
-    "postLink": "http://retractionwatch.com/2015/12/16/plos-one-issues-editors-note-over-disputed-chronic-fatigue-research/",
-    "commentsLink": "https://news.ycombinator.com/item?id=10767466",
-    "comments": 0
-  },
-  {
-    "title": "Railroad Diagram Generator: A tool for creating syntax diagrams",
-    "postLink": "http://bottlecaps.de/rr/ui",
-    "commentsLink": "https://news.ycombinator.com/item?id=10768403",
+    "id": 10770192,
+    "title": "10 GB Blocks",
+    "postLink": "https://ryanxcharlestimes.com/10-gb-blocks-e7ed69e54a66#.4di6guakh",
+    "commentsLink": "https://news.ycombinator.com/item?id=10770192",
     "comments": 6
   },
   {
-    "title": "Uber-Style Flight-Sharing Service Shot Down by U.S. Court",
-    "postLink": "http://www.bloomberg.com/news/articles/2015-12-18/uber-style-flight-sharing-service-shot-down-by-u-s-court",
-    "commentsLink": "https://news.ycombinator.com/item?id=10769333",
-    "comments": 40
+    "id": 10771186,
+    "title": "Kwm, tiling window manager for OS X",
+    "postLink": "https://github.com/koekeishiya/kwm",
+    "commentsLink": "https://news.ycombinator.com/item?id=10771186",
+    "comments": 24
   },
   {
-    "title": "“Learn More” links are a problem",
-    "postLink": "https://www.nngroup.com/articles/learn-more-links/",
-    "commentsLink": "https://news.ycombinator.com/item?id=10769183",
-    "comments": 12
-  },
-  {
-    "title": "Building an air raid siren (2012)",
-    "postLink": "http://woodgears.ca/siren/index.html",
-    "commentsLink": "https://news.ycombinator.com/item?id=10769709",
-    "comments": 3
-  },
-  {
-    "title": "Big Data Is for the Birds",
-    "postLink": "http://nautil.us/issue/27/dark-matter/big-data-is-for-the-birds",
-    "commentsLink": "https://news.ycombinator.com/item?id=10766844",
+    "id": 10772668,
+    "title": "Data Privacy Protection: Why Tutanota Is in Germany",
+    "postLink": "https://tutanota.com/blog/posts/data-privacy-germany",
+    "commentsLink": "https://news.ycombinator.com/item?id=10772668",
     "comments": 1
   },
   {
-    "title": "Flying on Mars (2001)",
-    "postLink": "http://gtri.gatech.edu/casestudy/flying-mars",
-    "commentsLink": "https://news.ycombinator.com/item?id=10768323",
-    "comments": 0
+    "id": 10771060,
+    "title": "Show HN: I redesigned the USPS package delivery slip",
+    "postLink": "https://medium.com/@alizauf/i-redesigned-the-usps-package-delivery-slip-fd43d8607753",
+    "commentsLink": "https://news.ycombinator.com/item?id=10771060",
+    "comments": 38
   },
   {
-    "title": "Mindfulness versus Concentration",
-    "postLink": "https://www.farnamstreetblog.com/2015/12/mindfulness-versus-concentration/",
-    "commentsLink": "https://news.ycombinator.com/item?id=10768469",
-    "comments": 19
-  },
-  {
-    "title": "Devils, Deals and the DEA: the DEA's longest running drug cartel case",
-    "postLink": "https://www.propublica.org/article/devils-deals-and-the-dea",
-    "commentsLink": "https://news.ycombinator.com/item?id=10769518",
+    "id": 10769682,
+    "title": "Bezos Takes Hands-On Role at Washington Post",
+    "postLink": "http://www.wsj.com/articles/bezos-takes-hands-on-role-at-washington-post-1450658089",
+    "commentsLink": "https://news.ycombinator.com/item?id=10769682",
     "comments": 4
   },
   {
-    "title": "Goethe's Theory of Colors",
-    "postLink": "https://en.wikipedia.org/wiki/Goethe%27s_Theory",
-    "commentsLink": "https://news.ycombinator.com/item?id=10768839",
-    "comments": 5
+    "id": 10775773,
+    "title": "How and Why I Taught My Toddler to Read (2010)",
+    "postLink": "http://larrysanger.org/wp-content/uploads/2010/12/How-and-Why-I-Taught-My-Toddler-to-Read.htm",
+    "commentsLink": "https://news.ycombinator.com/item?id=10775773",
+    "comments": 71
   },
   {
-    "title": "Deep Learning: An MIT Press Book in Preparation",
-    "postLink": "http://goodfeli.github.io/dlbook/",
-    "commentsLink": "https://news.ycombinator.com/item?id=10768440",
-    "comments": 20
+    "id": 10776587,
+    "title": "On the Juniper backdoor",
+    "postLink": "http://blog.cryptographyengineering.com/2015/12/on-juniper-backdoor.html",
+    "commentsLink": "https://news.ycombinator.com/item?id=10776587",
+    "comments": 4
   },
   {
-    "title": "How Theranos Misled Me",
-    "postLink": "http://fortune.com/2015/12/17/how-theranos-misled-me-elizabeth-holmes/",
-    "commentsLink": "https://news.ycombinator.com/item?id=10769243",
-    "comments": 74
+    "id": 10776399,
+    "title": "Ggplot2 version 2.0.0 released by Hadley Wickham",
+    "postLink": "http://blog.rstudio.org/2015/12/21/ggplot2-2-0-0/",
+    "commentsLink": "https://news.ycombinator.com/item?id=10776399",
+    "comments": 11
   },
   {
-    "title": "An Old-Media Empire, Axel Springer Reboots for the Digital Age",
-    "postLink": "http://www.nytimes.com/2015/12/21/business/media/an-old-media-empireaxel-springer-reboots-for-the-digital-age.html?partner=rss&emc=rss&smid=tw-nytimes&smtyp=cur&_r=1",
-    "commentsLink": "https://news.ycombinator.com/item?id=10766828",
+    "id": 10773808,
+    "title": "How the online hate mob set its sights on me",
+    "postLink": "http://www.theguardian.com/media/2015/dec/20/social-media-twitter-online-shame",
+    "commentsLink": "https://news.ycombinator.com/item?id=10773808",
+    "comments": 36
+  },
+  {
+    "id": 10770902,
+    "title": "Blade: a Java Web Framework",
+    "postLink": "https://github.com/biezhi/blade",
+    "commentsLink": "https://news.ycombinator.com/item?id=10770902",
+    "comments": 37
+  },
+  {
+    "id": 10763845,
+    "title": "How Santa Claus Ended Up on U.S. Military’s Radar",
+    "postLink": "http://www.nytimes.com/2015/12/20/upshot/how-santa-claus-ended-up-on-us-militarys-radar.html",
+    "commentsLink": "https://news.ycombinator.com/item?id=10763845",
+    "comments": 0
+  },
+  {
+    "id": 10774204,
+    "title": "Bitcoin's mining difficulty has increased by 41.9% over the last 30 days",
+    "postLink": "https://kaiko.com/statistics/difficulty",
+    "commentsLink": "https://news.ycombinator.com/item?id=10774204",
+    "comments": 192
+  },
+  {
+    "id": 10773865,
+    "title": "Suburban Office Parks Increasingly Obsolete; Businesses Choose Walkable Areas",
+    "postLink": "http://usa.streetsblog.org/2015/12/10/real-estate-giant-suburban-office-parks-increasingly-obsolete/#.Vnhp_CD-0bs.twitter",
+    "commentsLink": "https://news.ycombinator.com/item?id=10773865",
+    "comments": 150
+  },
+  {
+    "id": 10770670,
+    "title": "What web developers should know about SSL",
+    "postLink": "https://certsimple.com/blog/obsolete-cipher-suite-and-things-web-developers-should-know-about-ssl",
+    "commentsLink": "https://news.ycombinator.com/item?id=10770670",
+    "comments": 29
+  },
+  {
+    "id": 10771176,
+    "title": "What's inside net/http: Late binding in the Go standard library",
+    "postLink": "https://blog.cloudflare.com/whats-inside-net-http-socket-late-binding-in-the-go-standard-library/",
+    "commentsLink": "https://news.ycombinator.com/item?id=10771176",
+    "comments": 0
+  },
+  {
+    "id": 10771156,
+    "title": "Time Delay Between Earth and Mars (2012)",
+    "postLink": "http://blogs.esa.int/mex/2012/08/05/time-delay-between-mars-and-earth/",
+    "commentsLink": "https://news.ycombinator.com/item?id=10771156",
+    "comments": 2
+  },
+  {
+    "id": 10772152,
+    "title": "Tim Cook: Apple products aren’t made in China because it’s cheaper",
+    "postLink": "http://www.marketwatch.com/story/tim-cook-apple-doesnt-make-its-products-in-china-because-its-cheaper-2015-12-20",
+    "commentsLink": "https://news.ycombinator.com/item?id=10772152",
+    "comments": 24
+  },
+  {
+    "id": 10771307,
+    "title": "Array Thinking – Let it snow",
+    "postLink": "https://arraythinking.wordpress.com/2015/12/20/let-it-snow/",
+    "commentsLink": "https://news.ycombinator.com/item?id=10771307",
     "comments": 1
   },
   {
-    "title": "The Intention Behind Think Kit",
-    "postLink": "http://blog.fiftythree.com/posts/the-intention-behind-think-kit",
-    "commentsLink": "https://news.ycombinator.com/item?id=10768675",
+    "id": 10771083,
+    "title": "Good Mail Sorting",
+    "postLink": "http://plasmasturm.org/log/mailsort/",
+    "commentsLink": "https://news.ycombinator.com/item?id=10771083",
+    "comments": 0
+  },
+  {
+    "id": 10771008,
+    "title": "Mathematical gift wrapping [video]",
+    "postLink": "https://www.youtube.com/watch?v=NwmHHLdDBSA",
+    "commentsLink": "https://news.ycombinator.com/item?id=10771008",
+    "comments": 0
+  },
+  {
+    "id": 10770664,
+    "title": "The Relationship Between Intelligence and Anxiety",
+    "postLink": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3269637/",
+    "commentsLink": "https://news.ycombinator.com/item?id=10770664",
+    "comments": 40
+  },
+  {
+    "id": 10773750,
+    "title": "Accounting for the Rise in College Tuition [pdf]",
+    "postLink": "http://www.nber.org/chapters/c13711.pdf",
+    "commentsLink": "https://news.ycombinator.com/item?id=10773750",
     "comments": 1
   },
   {
-    "title": "Lincoln's Great Depression (2005)",
-    "postLink": "http://www.theatlantic.com/magazine/archive/2005/10/lincolns-great-depression/304247/?single_page=true",
-    "commentsLink": "https://news.ycombinator.com/item?id=10769319",
-    "comments": 1
+    "id": 10766709,
+    "title": "Microsoft GraphView: Use SQL Server or Azure SQL to efficiently manage graphs",
+    "postLink": "https://github.com/Microsoft/GraphView",
+    "commentsLink": "https://news.ycombinator.com/item?id=10766709",
+    "comments": 3
   },
   {
-    "title": "Making 3-D imaging 1,000 times better – MIT News",
-    "postLink": "http://news.mit.edu/2015/algorithms-boost-3-d-imaging-resolution-1000-times-1201",
-    "commentsLink": "https://news.ycombinator.com/item?id=10769985",
-    "comments": 1
+    "id": 10770964,
+    "title": "Citizen Maths: free/open adult math education for practical real-world numeracy",
+    "postLink": "http://boingboing.net/2015/11/03/citizen-maths-freeopen-math.html",
+    "commentsLink": "https://news.ycombinator.com/item?id=10770964",
+    "comments": 3
   },
   {
-    "title": "How Intelligent Lighting Is Ushering in the Internet of Buildings",
-    "postLink": "http://techcrunch.com/2015/12/20/how-intelligent-lighting-is-ushering-in-the-internet-of-buildings/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29",
-    "commentsLink": "https://news.ycombinator.com/item?id=10767784",
-    "comments": 1
+    "id": 10767788,
+    "title": "Android on the desktop: Not really “good,” but better than you’d think",
+    "postLink": "http://arstechnica.com/gadgets/2015/12/android-on-the-desktop-not-really-good-but-better-than-youd-think/",
+    "commentsLink": "https://news.ycombinator.com/item?id=10767788",
+    "comments": 14
   },
   {
-    "title": "Show HN: A Werewolf bot for Slack",
-    "postLink": "https://github.com/chrisgillis/slackwolf",
-    "commentsLink": "https://news.ycombinator.com/item?id=10768205",
-    "comments": 39
+    "id": 10776426,
+    "title": "Facebook’s “Save Free Basics in India” Campaign Provokes Controversy",
+    "postLink": "http://techcrunch.com/2015/12/17/save-free-basics/",
+    "commentsLink": "https://news.ycombinator.com/item?id=10776426",
+    "comments": 46
+  },
+  {
+    "id": 10774643,
+    "title": "Analysis of the Backdoored Backdoor",
+    "postLink": "https://rpw.sh/blog/2015/12/21/the-backdoored-backdoor/",
+    "commentsLink": "https://news.ycombinator.com/item?id=10774643",
+    "comments": 8
+  },
+  {
+    "id": 10774025,
+    "title": "NASA's Curiosity Rover Finds Piles Of Silica On Mars",
+    "postLink": "http://www.npr.org/sections/thetwo-way/2015/12/18/460254072/curiouser-and-curiouser-nasas-curiosity-rover-finds-piles-of-silica-on-mars",
+    "commentsLink": "https://news.ycombinator.com/item?id=10774025",
+    "comments": 0
   }
 ]

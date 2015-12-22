@@ -31,11 +31,25 @@ function getFrontPageHN(cb) {
         // last link is 'More' so we're not interested
         if (!/^More$/i.test(title)) {
           var commentsEl = el.parents('.athing').next().find('.subtext a').last();
+          var commentsLink = commentsEl.attr('href');
+
+          // if it doesn't have a comments link it's not of value (hiring posts etc)
+          if (!commentsLink) { return; }
+
+          var tmp = commentsLink.match(/item\?id=(.*)/);
+          var postId = 0;
+
+          if (tmp && tmp[1]) {
+            postId = parseInt(tmp[1], 10);
+          } else {
+            throw new Error('Cannot get postId for ' + title + ': ' + commentsLink);
+          }
 
           news.push({
+            id: postId,
             title: title,
             postLink: el.attr('href'),
-            commentsLink: 'https://news.ycombinator.com/' + commentsEl.attr('href'),
+            commentsLink: 'https://news.ycombinator.com/' + commentsLink,
             comments: parseInt(commentsEl.text(), 10) || 0
           });
         }
