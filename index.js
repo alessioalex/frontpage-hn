@@ -34,7 +34,7 @@ function getFrontPageHN(cb) {
           var commentsLink = commentsEl.attr('href');
 
           // if it doesn't have a comments link it's not of value (hiring posts etc)
-          if (!commentsLink) { return; }
+          if (!commentsLink || /^hide/.test(commentsLink)) { return; }
 
           var tmp = commentsLink.match(/item\?id=(.*)/);
           var postId = 0;
