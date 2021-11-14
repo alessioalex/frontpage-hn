@@ -5,7 +5,7 @@ const { getHNPosts, getHNPostsAsPromised } = require('./');
 
 // example 1: standard HN front page
 // comment/uncomment the following line
-/*
+// /*
 getHNPosts(function(err, posts) {
   if (err) { throw err; }
 
@@ -28,7 +28,7 @@ getHNPosts({ orderBy: 'score' }, function(err, posts) {
 // example 3: using async await with Promises instead of callbacks
 // 
 // comment/uncomment the following line
-// /*
+/*
 (async function() {
   try {
     const posts = await getHNPostsAsPromised({ orderBy: 'comments' });
@@ -40,6 +40,20 @@ getHNPosts({ orderBy: 'score' }, function(err, posts) {
 }());
 // */
 
+// example 4: getting the posts for a particular day (yyyy-mm-dd)
+// 
+// comment/uncomment the following line
+/*
+(async function() {
+  try {
+    const posts = await getHNPostsAsPromised({ day: '2007-02-19' });
+    console.log(posts);
+  } catch (err) {
+    console.error('oh noes, something bad happened while getting the HN posts :/')
+    throw err;
+  }
+}());
+// */
 
 // Example output:
 

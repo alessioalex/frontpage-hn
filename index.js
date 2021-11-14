@@ -3,6 +3,15 @@
 const get = require('simple-get').concat;
 const cheerio = require('cheerio');
 
+const hnStartTime = new Date('2007-02-19').getTime();
+const currentDate = new Date().getTime();
+
+function isValidHnDate(yyyymmdd) {
+  const hnDay = new Date(yyyymmdd).getTime();
+
+  return hnStartTime <= hnDay && hnDay <= currentDate;
+}
+
 // custom field can be one of 'score' or 'comments'
 // it defaults to 'position' in which case it doesn't
 // enter this function
@@ -31,11 +40,17 @@ function getHNPosts(options, cb) {
     done = cb;
   }
 
-  if (opts && ('orderBy' in opts) && ['score', 'comments'].includes(opts.orderBy) === false) {
-    throw new Error("orderBy property can only be one of 'score' or 'comments', if you don't specify it then it defaults to 'position'");
+  if (opts?.orderBy && ['score', 'comments'].includes(opts.orderBy) === false) {
+    throw new Error('orderBy property can only be one of "score" or "comments", if you don\'t specify it then it defaults to "position"');
   }
 
-  const hnUrl = 'https://news.ycombinator.com/';
+  let hnUrl = 'https://news.ycombinator.com/';
+
+  if (opts?.day && !isValidHnDate(opts.day)) {
+    throw new Error('invalid HN day option');
+  } else if (opts?.day) {
+    hnUrl = `https://news.ycombinator.com/front?day=${opts.day}`;
+  }
 
   get({
     url: hnUrl,
@@ -64,34 +79,29 @@ function getHNPosts(options, cb) {
     let news = [];
     const $ = cheerio.load(data.toString('utf8'));
 
-    $('.title > a').each(function parseData() {
-      const el = $(this);
+    $('.title > a').each(function parseData(position, element) {
+      const el = $(element);
       const title = el.text();
 
       // last link is 'More' so we're not interested
       if (!/^More$/i.test(title)) {
-        const scoreAndCommentsEl = el.parents('.athing').next().find('.subtext');
+        const athing = el.parents('.athing');
+        const scoreAndCommentsEl = athing.next().find('.subtext');
         const score = parseInt(scoreAndCommentsEl.find('.score').text(), 10);
         const commentsEl = scoreAndCommentsEl.find('a').last();
         const commentsLink = commentsEl.attr('href');
-
-        // if it doesn't have a comments link it's not of value (hiring posts etc)
-        if (!commentsLink || /^hide/.test(commentsLink)) { return; }
-
-        const tmp = commentsLink.match(/item\?id=(.*)/);
-
-        const id = (tmp && tmp[1]) ? parseInt(tmp[1], 10) : 0;
-
-        if (id === 0) {
-          throw new Error('Cannot get postId for ' + title + ': ' + commentsLink);
-        }
+        const id = athing.attr('id');
 
         news.push({
+          position: position + 1,
           id,
-          score,
+          score: score || null, // hiring posts don't have score
           title,
           postLink: el.attr('href'),
-          commentsLink: `https://news.ycombinator.com/${commentsLink}`,
+          commentsLink:
+            (commentsLink === `hide?id=${id}&goto=news`)
+              ? null // hiring posts have no comments
+              : `https://news.ycombinator.com/${commentsLink}`,
           comments: parseInt(commentsEl.text(), 10) || 0
         });
       }
